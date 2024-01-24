@@ -42,6 +42,7 @@
     "concurrently": "^8.2.2",
     "cross-env": "^7.0.3",
     "postcss": "^8.4.24",
+    "postcss-load-config": "^4.0.1",
     "@types/cookie": "^0.5.4",
     "svelte": "^4.2.3",
     "vite": "^4.5.0"
