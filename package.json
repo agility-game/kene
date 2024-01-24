@@ -1,5 +1,31 @@
 {
-  "name": "sveltekit",
+  "name": "kener",
+  "version": "0.0.5",
+  "private": false,
+  "license": "MIT",
+  "description": "Kener: An open-source Node.js status page application for real-time service monitoring, incident management, and customizable reporting. Simplify service outage tracking, enhance incident communication, and ensure a seamless user experience.",
+  "author": "Raj Nandan Sharma <rajnandan1@gmail.com>",
+  "keywords": [
+    "Node.js application",
+    "Open-source status page",
+    "Service monitoring tool",
+    "Real-time incident management",
+    "Customizable reporting",
+    "Service outage tracker",
+    "User-friendly dashboard",
+    "Incident communication platform",
+    "Scalable monitoring solution",
+    "Community-driven software",
+    "Website status tracker",
+    "Incident response tool",
+    "System status monitoring",
+    "Service reliability management",
+    "Incident alert system"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajnandan1/kener.git"
+  },
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -8,8 +34,13 @@
   "devDependencies": {
     "@fontsource/fira-mono": "^4.5.10",
     "@neoconfetti/svelte": "^1.0.0",
+    "@sveltejs/adapter-auto": "^2.0.0",
     "@sveltejs/adapter-node": "^1.3.1",
     "@sveltejs/kit": "^1.27.4",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.14",
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
     "@types/cookie": "^0.5.4",
     "svelte": "^4.2.3",
     "vite": "^4.5.0"
