@@ -32,6 +32,9 @@ Follow the deploy instructions at https://render.com/docs/deploy-sveltekit
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/render-examples/sveltekit)
 
+## Quick Start
+
+See [QuickStart at Kener Documentation](https://kener.ing/docs).
 
 <p align="center">
 	<img src="https://kener.ing/ss.png" width="100%" height="auto" alt="kener example illustration">
