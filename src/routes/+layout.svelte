@@ -4,6 +4,11 @@
 	// import Nav from "$lib/components/nav.svelte"; // causes an error
 	import { onMount } from "svelte";
 	export let data;
+	function getCookie(name) {
+		const value = `; ${document.cookie}`;
+		const parts = value.split(`; ${name}=`);
+		if (parts.length === 2) return parts.pop().split(';').shift();
+	}
 	import Header from './Header.svelte'; // REMOVE
 	import './styles.css'; // REMOVE
 </script>
