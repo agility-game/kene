@@ -1,8 +1,11 @@
 <script>
     import "../app.postcss";
 	import "../kener.css";
-	import Header from './Header.svelte';
-	import './styles.css';
+	// import Nav from "$lib/components/nav.svelte"; // causes an error
+	import { onMount } from "svelte";
+	export let data;
+	import Header from './Header.svelte'; // REMOVE
+	import './styles.css'; // REMOVE
 </script>
 
 <div class="app">
