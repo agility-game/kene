@@ -36,6 +36,8 @@ Follow the deploy instructions at https://render.com/docs/deploy-sveltekit
 
 See [QuickStart at Kener Documentation](https://kener.ing/docs).
 
+**NOTE**: See also [Environment Variables with SvelteKit](https://timdeschryver.dev/blog/environment-variables-with-sveltekit)
+
 <p align="center">
 	<img src="https://kener.ing/ss.png" width="100%" height="auto" alt="kener example illustration">
 </p>
