@@ -34,6 +34,8 @@ Follow the deploy instructions at https://render.com/docs/deploy-sveltekit
 
 ## Quick Start
 
+Read [Status page + Batteries](https://dev.to/rajnandan1/status-page-batteries-2e58).
+
 See [QuickStart at Kener Documentation](https://kener.ing/docs).
 
 **NOTE**: See also [Environment Variables with SvelteKit](https://timdeschryver.dev/blog/environment-variables-with-sveltekit)
