@@ -1,5 +1,8 @@
 <script>
-    // import Monitor from "$lib/components/monitor.svelte"; // Give error
+    // Make sure our Svelte app is compatible with typeScript
+	// see https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_TypeScript
+    // import Monitor from "$lib/components/monitor.svelte"; // Gives an error
+	// import * as Card from "$lib/components/ui/card"; // Gives an error
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
