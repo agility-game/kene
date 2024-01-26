@@ -9,6 +9,13 @@
 		const parts = value.split(`; ${name}=`);
 		if (parts.length === 2) return parts.pop().split(';').shift();
 	}
+	onMount(() => {
+		let localTz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+        if (localTz != data.localTz) {
+            document.cookie = "localTz=" + localTz + ";max-age=" + 60 * 60 * 24 * 365 * 30;
+            location.reload();
+        }
+    });	
 	import Header from './Header.svelte'; // REMOVE
 	import './styles.css'; // REMOVE
 </script>
