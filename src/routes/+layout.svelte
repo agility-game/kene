@@ -1,5 +1,6 @@
 <script>
     import "../app.postcss";
+	import "../kener.css";
 	import Header from './Header.svelte';
 	import './styles.css';
 </script>
