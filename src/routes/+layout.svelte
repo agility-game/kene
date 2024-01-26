@@ -19,6 +19,13 @@
 	import Header from './Header.svelte'; // REMOVE
 	import './styles.css'; // REMOVE
 </script>
+{#if data.showNav}
+  
+{/if}
+<svelte:head>
+  <title>Agility Game: Kener</title>
+  
+</svelte:head>
 
 <div class="app">
 	<Header />
