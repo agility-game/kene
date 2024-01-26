@@ -13,7 +13,7 @@
             hasActiveIncidents = true;
             break;
         }
-    }
+    } 
 </script>
 <div class="mt-32"></div>
 {#if data.site.hero}
